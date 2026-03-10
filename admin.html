@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Administrador</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Panel Administrador</h1>
+
+<div id="login">
+
+<input type="text" id="user" placeholder="Usuario">
+<input type="password" id="pass" placeholder="Contraseña">
+
+<button onclick="login()">Ingresar</button>
+
+</div>
+
+<div id="panel" style="display:none">
+
+<h2>Cargar Partido</h2>
+
+<select id="liga">
+<option>Argentina</option>
+<option>España</option>
+<option>Inglaterra</option>
+<option>Italia</option>
+<option>Brasil</option>
+</select>
+
+<input type="text" id="local" placeholder="Equipo Local">
+<input type="text" id="visitante" placeholder="Equipo Visitante">
+<input type="datetime-local" id="hora">
+
+<button onclick="agregarPartido()">Agregar Partido</button>
+
+<h2>Partidos cargados</h2>
+
+<div id="lista"></div>
+
+<button onclick="reset()">Reiniciar Fecha</button>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>

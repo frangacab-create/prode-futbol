@@ -1,0 +1,37 @@
+body{
+font-family: Arial;
+background:#0b6623;
+color:white;
+text-align:center;
+}
+
+header{
+background:#063d1a;
+padding:20px;
+}
+
+.container{
+width:90%;
+margin:auto;
+}
+
+.match{
+background:#14532d;
+padding:15px;
+margin:10px;
+border-radius:10px;
+}
+
+button{
+padding:10px 20px;
+background:#22c55e;
+border:none;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+select{
+padding:5px;
+}
